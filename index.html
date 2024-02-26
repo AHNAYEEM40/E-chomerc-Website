@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html data-theme=light lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AH shop</title>
+    <script src="https://kit.fontawesome.com/674fd6b9f8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="lg:w-10/12 mx-auto ">
+    <header>
+        <div class="navbar bg-base-100  hover:bg-yellow-500 rounded-2xl">
+            <div class="flex-1">
+              <a class="btn btn-ghost text-xl mb-2"> AH <span class="text-red-500">Shop</span></a>
+            </div>
+            <div class=" lg:mr-5 mr-2" >
+                <i class="fa-solid fa-cart-shopping "><sup>0</sup></i>
+             </div>
+            <div class="flex-none gap-2">
+              <div class="form-control">
+                <input type="text" placeholder="Search Your Product" class="input input-bordered w-44 md:w-auto" />
+              </div>
+              <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img alt="Tailwind CSS Navbar component" src="image/399904641_122095455740112399_91923961290679553_n.jpg" />
+                  </div>
+                
+                </div>
+                <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                  <li>
+                    <a class="justify-between">
+                      Profile
+                      <span class="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a>Settings</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr>
+    </header>
+    <main>
+        <!-- banner section -->
+     <section>
+        <div class="carousel rounded-xl h-auto">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="image/399597314_122097635588112399_8677575500929896604_n.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+          </div>
+     </section>
+     <!-- card section -->
+          <section>
+          <h1 class="text-2xl text-center font-bold">Select Your Best Product</h1>
+          <div class="flex mb-4">
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 space-y-2 ">
+            <!--   1st card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl hover:bg-lime-600">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-W35-Air-Wireless-Headphone-Blue-Color.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   2nd card -->
+            <div class="card w-44 md:w-64 lg:w-72  bg-base-100 shadow-xl  hover:bg-lime-500">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-W35-Air-Wireless-Headphone-Green-Color.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   3rd card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl  hover:bg-lime-400">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-W35-Air-1.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   4th card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl  hover:bg-emerald-600">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-W35-Air-Wireless-Headphone-4.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   5th card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl  hover:bg-emerald-500">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-W35.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   6th card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl  hover:bg-emerald-400">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-ESD15-Wireless-Bluetooth-Headphones-Black.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   7th card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl  hover:bg-indigo-600">
+                <figure class="px-10 pt-10">
+                  <img src="image/Hoco-ESD15-Wireless-Bluetooth-Headphones_2.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   8th card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl hover:bg-indigo-500">
+                <figure class="px-10 pt-10">
+                  <img src="image/wiwu-td-01-bach-series-foldable-on-ear-bluetooth-headphones-earphones-wiwu-318976-29-B.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!--   9th card -->
+            <div class="card w-44 md:w-64 lg:w-72 bg-base-100 shadow-xl hover:bg-indigo-400">
+                <figure class="px-10 pt-10">
+                  <img src="image/WIWU-TD-03.webp" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </section>
+    </main>
+    <footer>
+     
+    </footer>
+</body>
+</html>  
